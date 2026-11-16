@@ -35,6 +35,20 @@ In the app, click **Load synthetic demo**, or open an account yourself. Then:
 3. Untick **phone has network** to test offline use. Both sides keep writing, and the two copies merge when the network comes back.
 4. Tick **Make the next MOCK UPI call fail** to see a failure and an approved retry.
 
+### Configuration
+
+None is needed. The prototype reads no environment variables and calls no external services. [`.env.example`](.env.example) lists the keys the planned integrations will need (WhatsApp, Bhashini/AI4Bharat, an LLM, a database). Copy it to `.env` only when one of those is built; `.env` is git-ignored.
+
+### Repository layout
+
+```
+src/core/     ledger maths, hash chain, signatures, agent, approval gate (shared by app and tests)
+src/mocks/    labelled mocks: UPI, HUID, WhatsApp, speech
+app/          jeweller PWA + simulated karigar phone (static files, no build step)
+test/         48 node:test tests
+docs/         official problem text, submission answers, pitch deck (.pptx/.pdf)
+```
+
 ---
 
 ## 2. What is real, what is mocked, what is not built

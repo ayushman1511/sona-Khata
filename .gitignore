@@ -1,2 +1,25 @@
+# dependencies
 node_modules/
+
+# environment / secrets: never commit real keys
+.env
+.env.*
+!.env.example
+
+# OS and editor files
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# logs and local output
+*.log
+npm-debug.log*
+coverage/
+
+# Office lock files (left behind while the pitch deck is open)
+~$*
+
+# local Claude Code settings
+.claude/
