@@ -1,4 +1,6 @@
-# Karigar Ledger: prototype foundation
+# Sona Khata: a shared gold ledger for jewellers and karigars (prototype)
+
+*Sona Khata* means "gold account". Submission material: [answers](docs/submission-answers.md) · [pitch deck (.pptx)](docs/Sona-Khata-pitch.pptx) · [pitch deck (.pdf)](docs/Sona-Khata-pitch.pdf)
 
 **Tech4Bharat 2026 (JanAI Mass Entrepreneurship Challenge), Theme 2 Jeweltech, problem 2.2:**
 *"Gold given to karigars for job-work is tracked on trust, and disputes follow."*
@@ -22,7 +24,7 @@ This repo is a **foundation, not a finished product**. Its parts:
 You need Node ≥ 20 (for tests; there are no npm dependencies) and Python 3 (any static file server works).
 
 ```bash
-cd karigar-ledger
+cd sona-khata        # or wherever you cloned it
 npm test                      # 48 tests, node:test, no install step
 python3 -m http.server 8766   # then open http://localhost:8766/app/
 ```

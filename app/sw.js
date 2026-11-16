@@ -1,6 +1,6 @@
 // Service worker: caches the app shell and ledger code so the app opens and works with no network.
 // Ledger data lives in IndexedDB, not in this cache.
-const CACHE = 'karigar-ledger-v2';
+const CACHE = 'sona-khata-v3';
 const SHELL = [
   './', './index.html', './styles.css', './app.js', './store.js', './manifest.webmanifest', './icon.svg',
   '../src/core/units.js', '../src/core/crypto.js', '../src/core/reconcile.js', '../src/core/ledger.js',

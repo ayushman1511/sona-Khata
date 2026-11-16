@@ -1,6 +1,6 @@
 {
-  "name": "Karigar Ledger (prototype)",
-  "short_name": "Karigar Ledger",
+  "name": "Sona Khata (prototype)",
+  "short_name": "Sona Khata",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
