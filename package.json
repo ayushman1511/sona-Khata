@@ -1,0 +1,13 @@
+{
+  "name": "karigar-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tech4Bharat 2026 problem 2.2: a shared, two-party-approved gold ledger for jewellers and karigars (prototype foundation)",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "serve": "python3 -m http.server 8766"
+  },
+  "license": "UNLICENSED"
+}
